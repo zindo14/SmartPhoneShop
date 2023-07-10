@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<title>Smartphone shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+	<h3 class="w3-wide"><b>SMARTPHONE</b></h3>
+	<center>
+	<h3 class="w3-wide"><b>SHOP</b></h3></center>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold"> 
+  <a href="#pocetna" class="w3-bar-item w3-button">Pocetna</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Telefoni <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#apple" class="w3-bar-item w3-button">Apple</a>
+      <a href="#samsung" class="w3-bar-item w3-button">Samsung</a>
+      <a href="#xiaomi" class="w3-bar-item w3-button">Xiaomi</a>
+	  <a href="#huawei" class="w3-bar-item w3-button">Huawei</a>
+    </div>
+    <a href="#zastitnastakla" class="w3-bar-item w3-button">Zastitna stakla</a>
+	<a href="#zastitnemaske" class="w3-bar-item w3-button">Zastitne maske</a>
+	<a href="#footer" class="w3-bar-item w3-button w3-padding">Kontakt</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Obavestenja</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">SMARTPHONE SHOP</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  <div id="pocetna"></div>
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Dobrodosli</p>
+	 <div class="access">
+	 <!-- Canvas section -->
+  
+    <canvas class="animacija" id="logo-canvas" style="width: 60%;"></canvas>
+   <script src="./js/canvas.js"></script>
+    <p class="w3-right">
+       <a href="#" id="cart"></i><i class="fa fa-shopping-cart"></i></a>
+      <i class="fa fa-search" id="cart"></i>
+    </p>
+	</div>
+  </header>
+
+<link rel="stylesheet" href="css\styles.css">
+<link rel="stylesheet" href="css\site.css">
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+  <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="Slike\blacki.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="Slike\dddd.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="Slike\huaweis.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="Slike\iphones.jpg" style="width:100%">
+  </div>
+  
+  <script src="js\JavaScript1.js"></script>
+</div>
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+    </div>
+  </div>
+
+  <div class="w3-container" id="Apple">
+  <b>
+    <p style="font-size:25px" class="title-container">Najprodavanije <button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+	
+  </div>
+
+<script src="site.js"></script>
+
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+	  <div class="card">
+            <div class="card-item">
+				<img src="telefoni\s21.png" style="width:100%">
+            </div>   
+			<p>Samsung Galaxy S21<br><b>99.159 din</b></p>
+               		
+        </div>
+      </div>
+    </div>
+	
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\12.png" style="width:100%">
+        <p>Apple iPhone 12<br><b>123.999 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\p40pro.png" style="width:100%">
+        <p>Huawei P40 PRO<br><b>81.999 din</b></p>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\mi11.png" style="width:100%">
+        <p>Xiaomi MI 11<br><b>94.999 din</b></p>
+      </div>
+    </div>
+
+  </div>
+  
+  
+  <div class="w3-container" id="apple">
+  <b>
+    <p style="font-size:20px" class="title-container">Apple<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid Apple -->
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\12mini.png" style="width:100%">
+        <p>Apple iPhone 12 mini<br><b>110.190 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\12pro.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Apple iPhone 12 PRO MAX<br><b>172.490 din</b></p>
+      </div>
+
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\12.png" style="width:100%">
+        <p>Apple iPhone 12<br><b>123.999 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+       <div class="w3-container">
+        <img src="telefoni\se2.png" style="width:100%">
+        <p>Apple iPhone SE2<br><b>64.990 din</b></p>
+      </div>
+    </div>
+	
+  </div>
+  
+  <div class="w3-container" id="samsung">
+  <b>
+    <p style="font-size:20px" class="title-container">Samsung<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid Samsung -->
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\a12.png" style="width:100%">
+        <p>Samsung Galaxy A12<br><b>22.659 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\a51.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Samsung Galaxy A51<br><b>31.159 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\a72.png" style="width:100%">
+        <p>Samsung Galaxy S21<br><b>99.159 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\11prom.png" style="width:100%">
+        <p>Samsung Galaxy S21 ULTRA<br><b>144.489 din</b></p>
+      </div>
+    </div>
+	
+  </div>
+  
+  <div class="w3-container" id="xiaomi">
+  <b>
+    <p style="font-size:20px" class="title-container">Xiaomi<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid Xiaomi -->
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\9pro.png" style="width:100%">
+        <p>Xiaomi Redmi Note 9 PRO<br><b>32.999 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\f2pro.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Xiaomi POCO F2 PRO<br><b>69.999 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\10tpro.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Rasprodaja</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Xiaomi MI 10T PRO<br><b class="w3-text-red">65.909 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\mi11.png" style="width:100%">
+        <p>Xiaomi MI 11<br><b>94.999 din</b></p>
+      </div>
+    </div>
+	
+  </div>
+  
+  <div class="w3-container" id="huawei">
+  <b>
+    <p style="font-size:20px" class="title-container">Huawei<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\proplus.png" style="width:100%">
+        <p>Huawei P40 PRO PLUS<br><b>136.599 din</b></p>
+    </div>
+	</div>
+	
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\psmart21.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Huawei P SMART 2021<br><b>23.609 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="telefoni\p40.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Rasprodaja</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Huawei P40<br><b class="w3-text-red">55.999 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="telefoni\p40pro.png" style="width:100%">
+        <p>Huawei P40 PRO<br><b>81.999 din</b></p>
+      </div>
+      </div>
+
+  </div>
+  
+  <div class="w3-container" id="zastitnastakla">
+  <b>
+    <p style="font-size:20px" class="title-container">Zastitna stakla<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="stakla\glass.jpg" style="width:100%">
+        <p>Zastitno staklo<br><b>600 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="stakla\5d.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>5D zastitno staklo<br><b>2.000 din</b></p>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="w3-container" id="zastitnemaske">
+  <b>
+    <p style="font-size:20px" class="title-container">Zastitne maske<button type="button" id="item-btn">Pogledaj ostale</button></p></b>
+  </div>
+  
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+  
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="maske\smaska.jpeg" style="width:100%">
+        <p>Silikonska maska<br><b>599 din</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="maske\pmask.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Novo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Kupi odma <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Personalizovana maska<br><b>1.299 din</b></p>
+      </div>
+    </div>
+	
+  </div>
+  
+
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Prijavi se</h1>
+    <p>Da biste dobili posebne ponude i VIP tretman:</p>
+	<input class="w3-input w3-border" type="text" id="emailprijava" placeholder="Vas email" required>
+    <!-- <p><input  type="text" id="email" placeholder="Unesite e-mail" style="width:100%" required></p> -->
+    <button class="w3-button w3-red w3-margin-bottom" class="send" onclick="posaljiPrijavu()">Prijavi se</button>
+	<script src="./js/posaljiPrijavu.js"></script>
+  </div>
+  
+    
+
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Kontakt</h4>
+        <p>Pitanje? Posalji nam.</p>
+          <p><input class="w3-input w3-border" type="text" id="name" placeholder="Ime" required></p>
+          <p><input class="w3-input w3-border" type="text" id="email" placeholder="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" id="subject" placeholder="Naslov" required></p>
+          <p><input class="w3-input w3-border" type="text" id="message" placeholder="Poruka" required></p>
+          <button class="w3-button w3-block w3-black send" class="send" onclick="posalji()" >Posalji</button>
+		  <script src="./js/posalji.js"></script>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>Posetite nas</h4>
+        <div class='adress-column'>
+           <p> <a href="https://goo.gl/maps/TZnk3CCF8joYGT4d9" target="_blank"><i class="fa-solid fa-location-dot fa-2xl fa fa-fw fa-map-marker"></i>Tržni centar Promenada<br> Novi Sad</p></a>
+		   <p> <a href="https://goo.gl/maps/hQnMJyy2Vr336WsQA" target="_blank"><i class="fa-solid fa-location-dot fa-2xl fa fa-fw fa-map-marker"></i>Tržni centar BIG<br> Novi Sad</p></a>
+        </div>
+		<h4>Radno vreme</h4>
+		<i class="fa-solid fa-clock fa-2xl"></i><p>Radnim danima: <br><b> 8.00-20.00 h </b><br><br> Vikendom:<br><b> 8.00-16.00 h</b></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Prodavnica</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Mobilizam</p>
+        <p><i class="fa fa-fw fa-phone"></i> 021848452</p>
+        <p><i class="fa fa-fw fa-envelope"></i> mobilizam@gmail.com</p>
+        <h4>Mi prihvatamo</h4>
+        <p><i class="fa fa-google-wallet"></i> Kes</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Kreditne kartice</p>
+		<p><i class="fa fa-cc-paypal"></i> PayPal</p>
+        <br>
+        <a href="https://wwww.facebook.com" class="fa fa-facebook-official w3-hover-opacity w3-large"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram w3-hover-opacity w3-large"></a>
+        <a href="https://www.pinterest.com" class="fa fa-pinterest-p w3-hover-opacity w3-large"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter w3-hover-opacity w3-large"></a>
+        <a href="https://www.linkedin.com" class="fa fa-linkedin w3-hover-opacity w3-large"></a>
+      </div>
+	  
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Created by Smartphone shop Mobilizam | © 2022 All rights reserverd</div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Model -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Obavestenja</h2>
+      <p>Pridružite se našoj poštanskoj listi da biste dobijali novosti o novim dolascima i posebnim ponudama.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Unesite e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'" >Pretplati se</button>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Apple" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
